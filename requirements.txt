@@ -1,0 +1,13 @@
+openvino==2025.4.0
+openvino-genai
+streamlit
+faiss-cpu
+numpy
+pandas
+rdflib
+pymupdf
+python-docx
+python-pptx
+sentence-transformers
+langchain 
+langchain-text-splitters
