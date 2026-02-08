@@ -116,21 +116,25 @@ In the sidebar, you can adjust:
 - **Embeddings**: Hugging Face sentence-transformers (all-MiniLM-L6-v2)
 - **Vector Store**: FAISS
 - **LLM**: OpenVINO Phi-3
+- 
+## Flow Diagram
 
-## Flow diagram
+```
 ┌─────────────────────────────────────────────────────────┐
 │  QUICK REFERENCE                                        │
 ├─────────────────────────────────────────────────────────┤
 │  Start App:      streamlit run app.py                   │
 │  Upload Doc:     Browse files → Select file             │
-│  Ask Question:   Type → Click Ask                    
+│  Ask Question:   Type → Click Ask                       │
 │  Adjust Chunks:  Drag slider (1-10)                     │
 │  Clear History:  Click "Clear Chat History"             │
 │  New Document:   Click "Reset Document"                 │
 │  Stop App:       Ctrl+C in terminal                     │
-└─────────────────────────────────────────────────────────┘ 
+└─────────────────────────────────────────────────────────┘
+```
 
-## 📸 Demo
+
+## Demo
 
 ![Demo Image 1](demo/image1.png)
 
