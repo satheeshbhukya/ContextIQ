@@ -117,6 +117,25 @@ In the sidebar, you can adjust:
 - **Vector Store**: FAISS
 - **LLM**: OpenVINO Phi-3
 
+## Flow diagram
+┌─────────────────────────────────────────────────────────┐
+│  QUICK REFERENCE                                        │
+├─────────────────────────────────────────────────────────┤
+│  Start App:      streamlit run app.py                   │
+│  Upload Doc:     Browse files → Select file             │
+│  Ask Question:   Type → Click Ask                    
+│  Adjust Chunks:  Drag slider (1-10)                     │
+│  Clear History:  Click "Clear Chat History"             │
+│  New Document:   Click "Reset Document"                 │
+│  Stop App:       Ctrl+C in terminal                     │
+└─────────────────────────────────────────────────────────┘ 
+
+## 📸 Demo
+
+![Demo Image 1](demo/image1.png)
+
+![Demo Image 2](demo/image2.png)
+
 ## License
 
 MIT License - feel free to use this project for personal or commercial purposes.
